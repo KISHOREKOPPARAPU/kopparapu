@@ -1,0 +1,28 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>job3 is created </description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@1.34">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <jenkins.branch.RateLimitBranchProperty_-JobPropertyImpl plugin="branch-api@2.1046.v0ca_37783ecc5">
+      <durationName>second</durationName>
+      <count>1</count>
+      <userBoost>false</userBoost>
+    </jenkins.branch.RateLimitBranchProperty_-JobPropertyImpl>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <jdk>(System)</jdk>
+  <triggers/>
+  <concurrentBuild>true</concurrentBuild>
+  <builders/>
+  <publishers/>
+  <buildWrappers/>
+</project>
