@@ -6,13 +6,11 @@ pipline {
          echo " sample pipline"
       }
 }
- stages {
    stage ("build") {
    steps {
      echo " deployment pipline"
  }
 }
-  stages {
     stage ("deploy") {
     steps {
       echo "cicd pipline"
